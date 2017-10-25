@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 800');
+
+body {
+    background: url("../img/bg.png");
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+header {
+    margin-top: 51px;
+}
+
+.nav nav {
+    border: 1px solid #bcbcbc;
+}
+.nav nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav nav li:first-child {
+    border: none;
+}
+.nav nav li {
+    border-left: 1px solid #bcbcbc;
+    text-align: center;
+    padding: 0;
+}
+.nav nav a {
+    font-size: 14px;
+    color: #585858;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 2.5rem 1.5rem;
+}
+
+
+.slider {
+    margin-top: 48px;
+    border-top: 1px solid #bcbcbc;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 10px 0;
+}
+.slider .text {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -56px;
+    text-align: right;
+}
+.slider .text h3 {
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: #c33737;
+    padding: 17px 15px;
+    max-width: 237px;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+}
+.slider .text h4 {
+    color: #6c6e70;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    background: #2f3234;
+    margin: 0;
+    padding: 16px 15px;
+    display: inline-block;
+    max-width: 280px;
+    width: 100%;
+    text-align: left;
+}
+
+.icons {
+    margin-top: 80px;
+}
+.icons .icon {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #bcbcbc;
+
+    display: flex;
+    font-size: 20px;
+
+    width: 84px;
+    height: 84px;
+
+    color: #c33737;
+}
+.icons .icon i {
+    margin: auto;
+}
